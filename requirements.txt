@@ -1,0 +1,6 @@
+streamlit
+python-dotenv
+groq
+sounddevice
+scipy
+soundfile
