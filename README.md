@@ -20,10 +20,10 @@ Non-technical users can click Record, speak naturally, and hear the assistant re
 
 ## Project Structure
 voicebot-app/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
-└── .gitignore          # Ignored files (env, mp3, wav, etc.)
+app.py              #Main Streamlit application
+requirements.txt    #Python dependencies
+README.md           #Project documentation
+.gitignore          #Ignored files (env, mp3, wav, etc.)
 
 ## Live Demo
 Access the deployed voicebot here:
@@ -46,4 +46,5 @@ This project intentionally avoids system-level audio libraries like sounddevice,
 ## Author
 Gowry
 AI & Data Science Enthusiast
+
 
