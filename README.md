@@ -19,11 +19,11 @@ Non-technical users can click Record, speak naturally, and hear the assistant re
 - Streamlit Cloud — Deployment platform
 
 ## Project Structure
-voicebot-app/
-app.py              #Main Streamlit application
-requirements.txt    #Python dependencies
-README.md           #Project documentation
-.gitignore          #Ignored files (env, mp3, wav, etc.)
+- voicebot-app/
+- app.py              #Main Streamlit application
+- requirements.txt    #Python dependencies
+= README.md           #Project documentation
+- .gitignore          #Ignored files (env, mp3, wav, etc.)
 
 ## Live Demo
 Access the deployed voicebot here:
@@ -31,14 +31,14 @@ https://your-app-name.streamlit.app/
 
 ## Running Locally (Optional)
 (Local setup is NOT required for users — only for development.)
-pip install -r requirements.txt
-streamlit run app.py
+- pip install -r requirements.txt
+- streamlit run app.py
 
 ## requirements.txt
-streamlit
-python-dotenv
-groq
-gtts
+- streamlit
+- python-dotenv
+- groq
+- gtts
 
 ## Note:
 This project intentionally avoids system-level audio libraries like sounddevice, scipy, and pydub to remain fully compatible with Streamlit Cloud.
@@ -46,5 +46,6 @@ This project intentionally avoids system-level audio libraries like sounddevice,
 ## Author
 Gowry
 AI & Data Science Enthusiast
+
 
 
