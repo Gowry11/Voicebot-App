@@ -1,11 +1,19 @@
-# Voicebot Web App
+# AI Voicebot (Zero-Setup | Groq API + Streamlit)
 
-This is a simple GenAI-powered voicebot built with Streamlit.  
-It allows users to:
+This is a simple, user-friendly GenAI voicebot designed to work directly in any browser with zero setup.
+Non-technical users can click Record, speak naturally, and hear the assistant respond with AI-generated voice.
 
-- Record their voice
-- Convert speech to text
-- Generate short English-only AI replies
-- Play the reply using text-to-speech (TTS)
+Features
+- Browser Voice Recording — No drivers or installations needed
+- Speech-to-Text (Whisper) — Fast and accurate transcription
+- AI Conversational Reply (LLaMA) — Short, English-only answers
+- AI Voice Output (TTS) — Speaks the reply aloud
+- Fully Web-hosted — No API key required from users
+- Zero Setup — No downloads, no coding, no installations
 
-This web app is designed to be extremely user-friendly, even for non-technical users.
+Technologies Used
+- Streamlit — Web UI + audio recorder
+- Groq API — Whisper STT + LLaMA LLM
+- gTTS — Text-to-speech
+- Python
+- Streamlit Cloud — Deployment platform
